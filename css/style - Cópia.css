@@ -1,0 +1,31 @@
+.nav-bg{background: linear-gradient(to right,#ff9800,#fabd64);}
+.contorno{margin-top: 30px;border: 3px solid #fabd64;border-radius: 5px;}
+.hr-custom{border: 3px solid #fabd64;width: 15%;}
+.hr-custom2{border: 3px solid #fabd64;width: 100%;margin: 10px 0;}
+.btn-center{border-top: 2px solid #fabd64;background-color: rgba(35, 42, 255, 0.925); width: 30%; text-align: center; text-transform: uppercase; cursor: pointer; padding: 12px;color: #fff;text-align: center;margin-left: 40%;margin-top: 50px;}
+@media(max-width:1024px){.btn-center{ margin-left: 25%;}}
+.btn-center:hover{ background-color: #ff9800;box-shadow: 0.5px 0.5px 3px;}
+.campo-valor-total{ border: 0.5px solid green;background-color: rgba(255, 152, 0, 0.247);}
+.valor-total{font-weight: bold; color: green; font-size: 1.2em;}
+footer .footer{margin-top: 50px !important; background: linear-gradient(to right,#ff9800,#fabd64) !important;}
+/* label color */
+.input-field label {color: #ff9800 !important;}
+/* label focus color */
+.input-field input[type=text]:focus + label {color: #ff9800 !important;}
+/* label underline focus color */
+.input-field input[type=text]:focus {border-bottom: 1px solid #ff9800 !important;box-shadow: 0 1px 0 0 #ff9800 !important;}
+/* valid color */
+.input-field input[type=text].valid {border-bottom: 1px solid #ff9800 !important;box-shadow: 0 1px 0 0 #ff9800 !important;}
+/* invalid color */
+.input-field input[type=text].invalid {border-bottom: 1px solid #ff9800 !important;box-shadow: 0 1px 0 0 #ff9800 !important;}
+/* icon prefix focus color */
+.input-field .prefix.active {color: #ff9800 !important;}
+.square{width: 100%;border: 3px solid;margin-bottom: 10px;}
+.square:nth-child(1){border-color: #FF9800;}
+.square:nth-child(2){border-color: #2E7D32;}
+.square:nth-child(3){border-color: #1565C0;}
+.square:nth-child(4){border-color: purple;}
+.square:nth-child(5){border-color: cyan;}
+.btn.blue {background: linear-gradient(to right,#ff9800,#fabd64);}
+.btn.btn-center  {background: linear-gradient(to right,#ff9800,#fabd64);}
+.btn.btn-center:hover  {background: linear-gradient(to right,#fabd64,#ff9800);}
